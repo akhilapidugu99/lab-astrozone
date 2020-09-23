@@ -11,13 +11,16 @@ public class TestUser {
 	@Test
 	public void testGetNameMethod() {
 		astro.setName("Clara");
+                astro.setEmail("clara@gmail.com");
 		astro.setGender("Female");
 		astro.setDob("03-11-1997");
 		assertEquals("Clara", astro.getName());
+                assertEquals("clara@gmail.com", astro.getEmail());
 		assertEquals("Female",astro.getGender());
 		assertEquals("03-11-1997",astro.getDob());
 		try {
 			astro.setName(null);
+                        astro.setEmail(null);
 			astro.setGender(null);
 			astro.setDob(null);
 			
