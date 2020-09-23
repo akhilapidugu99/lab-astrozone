@@ -7,7 +7,7 @@ import org.junit.Test;
 import model.User;
 
 public class TestUser {
-	User astro = new User("Clara","female","03-11-1997");
+	User astro = new User("Clara","clara@gmail.com","03-11-1997", "female");
 	@Test
 	public void testGetNameMethod() {
 		astro.setName("Clara");
