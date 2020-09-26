@@ -27,7 +27,7 @@ public class AstroFormController extends HttpServlet {
 		String month=request.getParameter("dob2");
 		String year=request.getParameter("dob3");
 		String dob = date+"-"+month+"-"+year;	
-		
+		String email = request.getParameter("email");
 		if(astrosign.equals("Aquarius")){
 			RequestDispatcher rd=this.getServletContext().getRequestDispatcher("/WEB-INF/Outputview.jsp");
 			request.setAttribute("astro", "<img src='./assets/aquarius.svg'>");
