@@ -66,8 +66,7 @@ And finally, create a pull request so your ProGrad Mentor (PM) can review your w
 5. ***Return the output as a string.***
 
 ## Progression - 3
-1. ***Create an object for User in AstroFormcontroller inside the controller package and pass the inputs as contructor arguments.***
-2. ***Create an object for User class in the AstroFormController and pass the values given above as arguments to constructor.***
+1. ***Create an object for User class in the AstroFormController and pass the values given above as arguments to constructor.***
 3. ***Create an object for the AstroCalculator class.***
 4. ***Call the findSign method and store the return value in a String variable called as astrosign***
 
